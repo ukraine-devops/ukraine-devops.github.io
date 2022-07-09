@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Series on Ukraine DevOps Team</title>
-    <link>https://ukraine-devops.github.io/series/</link>
+    <link>https://ukraine-devops.com/series/</link>
     <description>Recent content in Series on Ukraine DevOps Team</description>
     <image>
-      <url>https://ukraine-devops.github.io/papermod-cover.png</url>
-      <link>https://ukraine-devops.github.io/papermod-cover.png</link>
+      <url>https://ukraine-devops.com/papermod-cover.png</url>
+      <link>https://ukraine-devops.com/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ukraine-devops.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ukraine-devops.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod</title>
-      <link>https://ukraine-devops.github.io/series/papermod/</link>
+      <link>https://ukraine-devops.com/series/papermod/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ukraine-devops.github.io/series/papermod/</guid>
+      <guid>https://ukraine-devops.com/series/papermod/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes Guide</title>
-      <link>https://ukraine-devops.github.io/series/themes-guide/</link>
+      <link>https://ukraine-devops.com/series/themes-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://ukraine-devops.github.io/series/themes-guide/</guid>
+      <guid>https://ukraine-devops.com/series/themes-guide/</guid>
       <description></description>
     </item>
     
