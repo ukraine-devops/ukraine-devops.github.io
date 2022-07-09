@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ukraine-devops.github.io/sitemap.xml

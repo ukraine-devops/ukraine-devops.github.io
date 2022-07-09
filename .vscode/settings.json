@@ -1,5 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://json.schemastore.org/github-workflow.json": "file:///Users/levpa/projects/hugo-PaperMod/.github/workflows/build.yml"
-    }
-}
