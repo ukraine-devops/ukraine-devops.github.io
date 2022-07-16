@@ -1,57 +1,25 @@
-# hugo-paperMod Example
+### install golang onto your laptop
+https://go.dev/dl
 
-This repository offers an example site for [hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
-
-## Install
-
-Read Wiki => [hugo-PaperMod - Installation](https://github.com/adityatelange/hugo-PaperMod/wiki/Installation)
-
-## Directory Tree
-
+### install hugo engine on Windows with choco
 ```
-.(site root)
-├── configTaxo.yml
-├── config.yml
-├── content
-│   ├── archives.fr.md
-│   ├── archives.md
-│   ├── posts
-│   │   ├── emoji-support.md
-│   │   ├── markdown-syntax.fa.md
-│   │   ├── markdown-syntax.fr.md
-│   │   ├── markdown-syntax.md
-│   │   ├── math-typesetting.md
-│   │   ├── papermod
-│   │   │   ├── _index.md
-│   │   │   ├── papermod-faq.md
-│   │   │   ├── papermod-features
-│   │   │   │   ├── images
-│   │   │   │   │   ├── homeinfo.jpg
-│   │   │   │   │   ├── profile.jpg
-│   │   │   │   │   └── regular.jpg
-│   │   │   │   └── index.md
-│   │   │   ├── papermod-icons.md
-│   │   │   ├── papermod-installation.md
-│   │   │   └── papermod-variables.md
-│   │   ├── placeholder-text.md
-│   │   └── rich-content.md
-│   ├── search.fr.md
-│   ├── search.md
-│   └── tags
-├── LICENSE
-├── README.md
-├── resources
-│   └── _gen
-│       ├── assets
-│       └── images
-├── static
-│   ├── android-chrome-192x192.png
-│   ├── android-chrome-512x512.png
-│   ├── apple-touch-icon.png
-│   ├── favicon-16x16.png
-│   ├── favicon-32x32.png
-│   ├── favicon.ico
-│   └── papermod-cover.png
-└── themes
-    └── hugo-PaperMod
+choco install hugo-extended -confirm
+hugo version
 ```
+### clone repository with SSH key
+`git clone git@github.com:ukraine-devops/ukraine-devops.github.io.git`
+
+### update theme as submodule in repository
+`git submodule update --init --recursive`
+
+### create new post or go to the next step
+`hugo new posts/my-new-post.md`
+
+### use interactive server for hot reload editing
+`hugo server -D`
+
+### push changes to origin
+`git add . && git commit -m "changes" && git push`
+
+### or do it in one command with git alias: 
+`cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"` 
